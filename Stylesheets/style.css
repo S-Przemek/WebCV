@@ -1,92 +1,112 @@
-
-.navbar-brand{
-    color: rgb(189, 189, 189);
-    font-size: xx-large;
-    font-weight: 600;
-    margin:15px;
+.container {
+  margin-top: 30px;
 }
 
-.nav-item{
-    margin-right: 10px;
-    margin-left: 10px;
+h1 {
+  width: 75%;
+  margin: auto;
+  margin-bottom: 15px;
+  font-weight: 700;
 }
 
-.nav-link{
-    color: rgb(189, 189, 189);
-    font-size: large;
+.navbar-brand {
+  color: rgb(189, 189, 189);
+  font-size: xx-large;
+  font-weight: 600;
+  margin: auto 15px;
 }
 
-#navbarRow{
-    margin: auto;
+.nav-item {
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
-.navbar-container{
-    background-color: rgba(26, 26, 26, 1);
-    margin-bottom: 5%;
+.nav-link {
+  color: rgb(189, 189, 189);
+  font-size: large;
 }
 
-.navbar-toggler:hover{
-    border: 2px solid rgb(100, 100, 100);
+.nav-link:hover,
+.navbar-brand:hover {
+  color: rgb(255, 255, 255);
+  font-weight: 900;
 }
 
-.navbar-toggler:focus{
-    box-shadow: none;
+.navbarRow {
+  margin: auto;
+}
+
+.navbar-container {
+  background-color: rgba(26, 26, 26, 1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.navbar-toggler:hover {
+  border: 2px solid rgb(100, 100, 100);
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
 }
 
 .navSlideIn {
-    float:down;
-    animation-duration: 1s;
-    animation-name: slideIn;
+  float: down;
+  animation-duration: 1s;
+  animation-name: slideIn;
 }
 
 @keyframes slideIn {
-    from {
-        margin-top: -30%;
-    }
-    to {
-        margin-top: 0%;
-    }
+  from {
+    margin-top: -30%;
+  }
+  to {
+    margin-top: 0%;
+  }
 }
 
-body{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: rgb(189, 189, 189);
+body {
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: rgb(189, 189, 189);
 }
 
-h4{
-    font-weight: bold;
+h4 {
+  font-weight: bold;
 }
 
-.copnent-holder{
-    position: relative;
+.copnent-holder {
+  position: relative;
 }
 
-.content{
-    margin: auto;
-    margin-bottom: 5%;
-    width: 75%;
-    border: 3px solid rgba(26, 26, 26, 0.966);
-    border-radius: 10px;
-    padding: 20px;
-    font-size: larger;
-    animation-duration: 2s;
-    animation-name: fadeIn;
-    min-width: 300px;
+.content {
+  margin: auto;
+  margin-bottom: 5%;
+  width: 75%;
+  border: 3px solid rgba(26, 26, 26, 0.966);
+  border-radius: 10px;
+  padding: 20px;
+  font-size: larger;
+  animation-duration: 2s;
+  animation-name: fadeIn;
+  min-width: 300px;
 }
 
-.index-content{
-    margin: auto;
-    width: 75%;
-    padding: 20px;
-    text-align: center;
-    min-width: 380px;
+.index-content {
+  margin: auto;
+  width: 75%;
+  padding: 20px;
+  text-align: center;
+  min-width: 380px;
 }
 
 @keyframes fadeIn {
-    from {
-        opacity: 0%;
-    }
-    to {
-        opacity: 100%;
-    }
+  from {
+    opacity: 0%;
+  }
+  to {
+    opacity: 100%;
+  }
 }
