@@ -28,6 +28,10 @@ h1 {
   font-weight: 700;
 }
 
+h4 {
+  font-weight: 600;
+}
+
 .navbar-brand {
   color: rgb(189, 189, 189);
   font-size: xx-large;
