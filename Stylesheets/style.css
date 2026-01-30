@@ -150,11 +150,14 @@ h4 {
   flex-wrap: wrap;
 }
 
-.footer-contact li,
-.footer-contact a {
+.footer-contact li {
   color: rgb(189, 189, 189);
   text-decoration: none;
   font-weight: 500;
+}
+
+.footer-contact a {
+  text-decoration: none;
 }
 
 .footer-contact a:hover {
