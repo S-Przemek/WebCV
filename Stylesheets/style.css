@@ -42,11 +42,19 @@ h4 {
 .nav-item {
   margin-right: 10px;
   margin-left: 10px;
+  width: fit-content;
 }
 
 .nav-link {
   color: rgb(189, 189, 189);
   font-size: large;
+}
+
+.nav-link.active {
+  color: rgb(255, 255, 255);
+  font-weight: 900;
+  border-bottom: 4px solid rgb(255, 255, 255);
+  padding-bottom: 0px;
 }
 
 .nav-link:hover,
