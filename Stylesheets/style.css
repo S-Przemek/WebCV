@@ -168,7 +168,7 @@ h4 {
 /* Animations */
 @keyframes contentSlideIn {
   from {
-    transform: translateY(-100px);
+    transform: translateY(-50px);
     opacity: 0;
   }
   to {
