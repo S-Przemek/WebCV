@@ -35,6 +35,9 @@ $(document).ready(function () {
     loadPage(defaultPage);
     setActiveLink(defaultPage);
   });
+
+  // Load footer once
+  $("#footer-holder").load("Partials/Footer.html");
 });
 
 // Set active navbar link
