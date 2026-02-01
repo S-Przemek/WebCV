@@ -28,4 +28,4 @@ Deployment
 - GitHub Pages: push to the `main` branch and enable Pages in repository settings, using the repository root as the publishing source.
 
 Author / Contact
-- Maintained by S-Przemek (GitHub: [S-Przemek](https://github.com/S-Przemek))
+- Maintained by S-Przemek (GitHub: [Przemek Stepien](https://github.com/S-Przemek))
